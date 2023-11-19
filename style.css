@@ -1,0 +1,52 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+ @font-face {
+   font-family: 'MyCustomFont';
+   src: url('assets/Bitlamero-Slant.woff2') format('woff2'),
+
+
+ }
+
+ body {
+   font-family: 'Open Sans', sans-serif; 
+
+ }
+
+ h1, h2, h3 {
+   font-family: 'Open Sans', sans-serif; 
+
+ }
+
+ .gradient-bg {
+   background: linear-gradient(to right, #4CAF50, #2196F3);
+   font-family: "MyCustomFont";
+   font-size: 50px;
+   color: #ffffff;
+   padding: 10px;
+   border-radius: 5px;
+   margin-top: 20px;
+ }
+
+ .rounded-button {
+   background-color: #4CAF50;
+   color: #ffffff;
+   padding: 10px 20px;
+   border-radius: 25px;
+   border: none;
+   cursor: pointer;
+   transition: background-color 0.3s ease;
+ }
+
+ .rounded-button:hover {
+   background-color: #45a049;
+ }
+
+ .image-container {
+   margin-top: 20px;
+ }
+
+ .svg-image:hover {
+   transform: scale(1.1);
+ }
